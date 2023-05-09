@@ -1,0 +1,40 @@
+:root {
+    --boxSize: 1000px;
+}
+body {
+    background-color: rgb(229, 229, 229);
+}
+h1, p {
+    width: var(--boxSize);
+    text-align: center;
+}
+.container-1 {
+    width: var(--boxSize);
+    background-color: lightskyblue;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container-2 {
+    width: var(--boxSize);
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.container-3 {
+    width: var(--boxSize);
+    background-color:pink;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+img {
+    width: 250px;
+}
