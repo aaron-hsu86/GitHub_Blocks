@@ -1,0 +1,59 @@
+:root {
+    --boxSize: 1000px;
+}
+body {
+    background-color: rgb(229, 229, 229);
+}
+h1, p {
+    width: 0px auto;
+    text-align: center;
+}
+.container {
+    width: var(--boxSize);
+    margin: 20px;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    /* justify-content:space-evenly; */
+    /* flex-direction: column; */
+}
+.top {
+    background-color: lightskyblue;
+    /* justify-content: space-evenly; */
+    /* width: var(--boxSize);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center; */
+}
+.middle {
+    background-color: black;
+    /* justify-content:space-evenly; */
+    /* width: var(--boxSize); */
+    /* margin: 20px;
+    padding: 20px; */
+    /* display: flex;
+    align-items: center; */
+}
+.bottom {
+    background-color:pink;
+    /* justify-content:space-evenly; */
+    /* width: var(--boxSize); */
+    /* margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center; */
+    /* align-items: flex-end; */
+}
+img {
+    width: 250px;
+}
+
+/* 
+Feedback from TA was attempting to suggest reducing amount of code written for efficiency.
+Not something to worry about at the moment.
+*/
+.space_evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
